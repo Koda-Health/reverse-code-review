@@ -1,0 +1,45 @@
+type Document {
+  id: ID
+  title: String
+}
+
+type Users {
+  id: ID!
+  name: String
+  email: String
+  address: String
+  age: Int
+  # Could be either 'patient' or 'admin'
+  userType: String
+}
+
+type Query {
+  getMultipleDocs(ids: [String]): [Document]
+
+  getDocument(id: ID): Document
+
+  getOneUser(id: String): [User]
+
+  getManyUsers(id: [ID]): User
+}
+
+type Mutation {
+  createUser(name: String, email: String): User
+
+  updateUser(
+    id: String
+    name: String
+    email: String
+    address: String
+    age: Int
+    userType: String
+  ): User
+}
+
+# Let's discuss ways to improve these schema design
+# Some, but not all, things to keep in mind:
+# 1. getMultipleDocs may be backed a large table/collection with potentially thousands of documents
+# 2. The number of input parameters, for instance on the update user mutation, are likely to grow over time
+# again, these are not the only consideration-- but two to keep in mind as you look for improvements
+# There is no one right answer and everything in this file is up for debate...
+# we're looking to see what points you bring up for discussion, what questions you ask and suggestions that you make
