@@ -14,11 +14,11 @@ The technical interview will last about an hour. 30 minutes of general conversat
 
 ## Please keep in mind
 
-- Only select one of the folders (graphql, node or react). We don't expect you to review all three.
 - There are no trick questions
 - There are no specific "right answers" that we're looking for here
 - These are just incomplete snippets/code samples, you'll have to use a bit of imagination that they're part of a larger project
 - We don't expect you to find all of the issues or do a perfect code review in 30 minutes. This is just a chance for us to have a (hopefully) low-stress 1-on-1 conversation where we can talk shop and get a sense of how it would be working together.
+- Only select one of the folders (graphql, node or react). We don't expect you to review all three.
 
 ## Providing Your Code Review
 
@@ -26,7 +26,7 @@ In terms of how you deliver your review, you have a couple of options. We won't 
 
 Those options are:
 
-1. **Just a verbale discussion:** You can just look over the code on your own time. Then on our technical interview call, we can verbally discuss the code-- answer any questions you might have if you need more context, points of discussion, etc
+1. **Verbal discussion:** You can just look over the code on your own time. Then on our technical interview call, we can verbally discuss the code-- answer any questions you might have if you need more context, points of discussion, etc
 
 2. **Formal PR:** If you prefer to do a more realistic/formal code review, you can fork this repo, then create a PR on your fork and invite `acomito` to reveiw it.
 
