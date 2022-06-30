@@ -28,7 +28,7 @@ Those options are:
 
 1. **Verbal discussion:** You can just look over the code on your own time. Then on our technical interview call, we can verbally discuss the code-- answer any questions you might have if you need more context, points of discussion, your suggestions for improvement, etc
 
-2. **Formal PR:** If you prefer to do a more realistic/formal code review, you can fork this repo, then create a PR on your fork and invite `acomito` to reveiw it.
+2. **Formal PR:** If you prefer to do a more realistic/formal code review, you can fork this repo, then create a PR on your fork and invite `acomito` to review it.
 
 As far as standards for code reviews, you don't need to worry about our standards/preferences at Koda-- you can use ones that you're familiar with from the past or your own huersistics around good coding practices. We're evaluating you on your command of the code, ability to deliver cordial criticism, and thought processes around what makes good code-- not on your ability to implement our preferences.
 
