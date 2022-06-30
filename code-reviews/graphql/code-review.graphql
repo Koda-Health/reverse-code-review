@@ -35,11 +35,3 @@ type Mutation {
     userType: String
   ): User
 }
-
-# Let's discuss ways to improve these schema design
-# Some, but not all, things to keep in mind:
-# 1. getMultipleDocs may be backed a large table/collection with potentially thousands of documents
-# 2. The number of input parameters, for instance on the update user mutation, are likely to grow over time
-# again, these are not the only consideration-- but two to keep in mind as you look for improvements
-# There is no one right answer and everything in this file is up for debate...
-# we're looking to see what points you bring up for discussion, what questions you ask and suggestions that you make

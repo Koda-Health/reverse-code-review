@@ -1,0 +1,11 @@
+{
+  "name": "interview-code-reviews",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Koda-Health/interview-code-reviews.git",
+  "author": "acomito <arcomito@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0"
+  }
+}
