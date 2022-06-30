@@ -12,7 +12,7 @@ interface SignupFormProps {
 
 export default function SignupForm(props: SignupFormProps) {
   const [email, setEmail] = useState();
-  const [firstName, setFirstName] = useState();
+  const [fn, setFn] = useState();
   const [lastName, setLastName] = useState();
   const [dob, setDob] = useState();
   const [password, setPassword] = useState();
@@ -22,10 +22,7 @@ export default function SignupForm(props: SignupFormProps) {
     <>
       <h1>{props?.userType === "admin" ? "Admin Login" : "User Login"}</h1>
       <label>First Name</label>
-      <Input
-        value={firstName}
-        onChange={(e) => setFirstName(e?.target?.value)}
-      />
+      <Input value={fn} onChange={(e) => setFn(e?.target?.value)} />
       <label>Last Name</label>
       <Input value={lastName} onChange={(e) => setLastName(e?.target?.value)} />
       {/* Admins have one field that is requiree for their signup */}
@@ -53,10 +50,10 @@ export default function SignupForm(props: SignupFormProps) {
       <button
         onClick={() => {
           if (props?.userType === "admin" && !employeeId) {
-            return alert("Admin suers must input their employeeId");
+            return alert("Admin users must input their employeeId");
           }
 
-          if (!firstName) {
+          if (!fn) {
             alert("Needs an first name");
           } else if (!lastName) {
             alert("Needs a last name");
@@ -67,7 +64,7 @@ export default function SignupForm(props: SignupFormProps) {
           }
 
           props.onSubmit({
-            firstName,
+            firstName: fn,
             lastName,
             email,
             password,
