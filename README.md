@@ -18,7 +18,7 @@ The technical interview will last about an hour. 30 minutes of general conversat
 - There are no specific "right answers" that we're looking for here
 - These are just incomplete snippets/code samples, they will not run locally. You'll have to use a bit of imagination that they're part of a larger project
 - We don't expect you to find all of the issues or do a perfect code review in 30 minutes. This is just a chance for us to have a (hopefully) low-stress 1-on-1 conversation where we can talk shop and get a sense of how it would be working together.
-- Only select one of the folders (graphql, node or react). We don't expect you to review all three.
+- Only select one of the folders (graphql, node or react). We don't expect you to review all three folders.
 
 ## Providing Your Code Review
 
